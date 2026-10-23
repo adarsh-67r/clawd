@@ -1,0 +1,4 @@
+{
+  "poll": { "systemState": 2500, "cursor": 33, "keypress": 80 },
+  "claudeCommand": "xdg-terminal-exec claude"
+}

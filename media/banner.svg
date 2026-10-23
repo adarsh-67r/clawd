@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="960" height="220" role="img" aria-label="Clawd — the Claude pet for your Linux desktop">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#191720"/>
+      <stop offset="1" stop-color="#12251e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- panel -->
+  <rect x="1" y="1" width="958" height="218" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="958" height="218" rx="18" fill="none" stroke="#2b2a36" stroke-width="2"/>
+  <!-- pixel floor -->
+  <g fill="#ffffff" opacity="0.05">
+    <rect x="24" y="176" width="16" height="4"/><rect x="88" y="176" width="16" height="4"/>
+    <rect x="120" y="188" width="16" height="4"/><rect x="40" y="188" width="16" height="4"/>
+    <rect x="832" y="176" width="16" height="4"/><rect x="896" y="188" width="16" height="4"/>
+    <rect x="912" y="176" width="16" height="4"/><rect x="864" y="188" width="16" height="4"/>
+  </g>
+
+  <!-- pet: pixel-art clawd (coral, happy closed eyes) scaled ×10 -->
+  <g shape-rendering="crispEdges">
+    <!-- shadow -->
+    <rect x="120" y="186" width="120" height="8" fill="#000" opacity="0.35"/>
+    <!-- body -->
+    <rect x="136" y="132" width="88" height="52" fill="#DE886D"/>
+    <!-- ears -->
+    <rect x="124" y="104" width="24" height="24" fill="#DE886D"/>
+    <rect x="212" y="104" width="24" height="24" fill="#DE886D"/>
+    <rect x="132" y="112" width="8" height="8" fill="#8B3F30"/>
+    <rect x="220" y="112" width="8" height="8" fill="#8B3F30"/>
+    <!-- happy closed eyes -->
+    <rect x="158" y="148" width="12" height="4" fill="#221a18"/>
+    <rect x="190" y="148" width="12" height="4" fill="#221a18"/>
+    <!-- blush -->
+    <rect x="150" y="156" width="8" height="4" fill="#E8A98F"/>
+    <rect x="202" y="156" width="8" height="4" fill="#E8A98F"/>
+    <!-- feet -->
+    <rect x="144" y="180" width="16" height="10" fill="#DE886D"/>
+    <rect x="200" y="180" width="16" height="10" fill="#DE886D"/>
+  </g>
+
+  <!-- walk trail pixels -->
+  <g shape-rendering="crispEdges" fill="#3c5a4a">
+    <rect x="280" y="188" width="10" height="10"/><rect x="310" y="188" width="10" height="10"/>
+    <rect x="700" y="188" width="10" height="10"/><rect x="670" y="188" width="10" height="10"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="360" y="96" font-family="'JetBrains Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="64" font-weight="700" fill="#DE886D" letter-spacing="10">CLAWD</text>
+  <text x="364" y="132" font-family="'JetBrains Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="17" fill="#c9c4d4">a claude desktop pet that walks across your linux desktop</text>
+  <text x="364" y="162" font-family="'JetBrains Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="13" fill="#6b6577">native rust &#183; wayland &#183; niri-first &#183; x11</text>
+</svg>

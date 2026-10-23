@@ -1,0 +1,16 @@
+# Rust/Tauri build artifacts
+src-tauri/target/
+src-tauri/gen/schemas/
+
+# Frontend
+node_modules/
+dist/
+
+# Local working notes
+.superpowers/
+
+# OS
+.DS_Store
+
+# Rust build output (root crate)
+target/
